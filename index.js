@@ -73,10 +73,3 @@ export async function getPathInfo(path) {
     throw error;
   }
 }
-
-async function main() {
-  const res = await getPathInfo("E:\\phoenix");
-  console.log(res.files);
-}
-
-main();
