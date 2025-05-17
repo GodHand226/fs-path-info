@@ -1,0 +1,31 @@
+{
+  "name": "path-info",
+  "version": "1.0.0",
+  "description": "Return details of a path",
+  "license": "MIT",
+  "repository": "godhand226/path-info",
+  "author": {
+    "name": "godhand226",
+    "email": "dennis.chancy226@gmail.com"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "path",
+    "info",
+    "file",
+    "filepath",
+    "folder",
+    "stat"
+  ],
+  "dependencies": {
+    "file-type": "^20.5.0"
+  }
+}
