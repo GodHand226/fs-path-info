@@ -1,9 +1,9 @@
 {
-  "name": "path-info",
+  "name": "fs-path-info",
   "version": "1.0.0",
   "description": "Return details of a path",
   "license": "MIT",
-  "repository": "godhand226/path-info",
+  "repository": "godhand226/fs-path-info",
   "author": {
     "name": "godhand226",
     "email": "dennis.chancy226@gmail.com"
@@ -23,7 +23,8 @@
     "file",
     "filepath",
     "folder",
-    "stat"
+    "stat",
+    "fs"
   ],
   "dependencies": {
     "file-type": "^20.5.0"

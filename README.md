@@ -1,4 +1,4 @@
-# path-info
+# fs-path-info
 
 > Return details of a path
 
@@ -7,14 +7,14 @@ NOTE: This is an extended use of `fs.stat()`. If you only need simple data of a 
 ## Install
 
 ```
-$ npm install path-info
+$ npm install fs-path-info
 ```
 
 ## Usage
 
 ```js
 // foo.js
-import { getPathInfo } from "path-info";
+import { getPathInfo } from "fs-path-info";
 
 console.log(await getPathInfo("E:\\foo.js"));
 ```
